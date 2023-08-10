@@ -39,18 +39,18 @@ function Search()
            <input type="text" placeholder="Enter City" onChange={e=>setlocation(e.target.value)} ></input>
            <button   onClick={search} >SEARCH</button>
            <div class="content">
-            <img src="location.png" height="200px"></img>
+            <img src="location.jpg"  height="200px"></img>
             <h3>LOCATION: {data.name}</h3>
 
 
 
             <div class="row">
             <div class="col">
-            <img src="temp.png" height="100px"></img>
+            <img src="temp.jpg" height="100px"></img>
            <h4>Temperature(In Kelvin) : {data.temperature}</h4>
            </div>
            <div class="col">
-           <img src="humidity.png" height="100px"></img>
+           <img src="humidity.jpg" height="100px"></img>
            <h4>Humidity(In Kelvin) : {data.humidity}</h4>
            </div>
            </div>
@@ -63,7 +63,7 @@ function Search()
            <h4>Minimum Temperature : {data.temperature_min}</h4>
            </div>
            <div class="col">
-           <img src="max_temp.png" height="100px"></img>
+           <img src="max_temp.jpg" height="100px"></img>
            <h4>Maximum Temperature:{data.temperature_max}</h4>
            </div>
            </div>
